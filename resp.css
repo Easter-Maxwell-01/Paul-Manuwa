@@ -1,0 +1,384 @@
+
+@media (max-width: 1200px)
+{
+    /* about */
+    #about .row .name 
+    {
+        font-size: 3.5rem;
+        margin-top: 25%;
+        margin-left: 40%;
+    }
+
+
+    /* bio */
+    .bio .collab p 
+    {
+        font-size: .8rem;
+    }
+    .bio .write-up p 
+    {
+        font-size: .7rem;
+        padding: 0 2em;
+    }
+
+
+    /* disco */
+    #disco .row .col img 
+    {
+        width: 400px;
+        height: 400px;
+    }
+
+    
+
+}
+
+@media (max-width: 900px)
+{
+    /* site nav */
+    .nav .logo 
+    {
+        font-size: 1.8rem;
+    }
+    .nav a 
+    {
+        font-size: .8rem;
+    }
+
+
+    /* home */
+    #home .cta h1 
+    {
+        font-size: 2.5rem;
+    }
+    #home .cta a 
+    {
+        font-size: .7rem;
+    }
+
+
+    /* about */
+    #about .col-1 
+    {
+        width: 25%;
+        height: 45vh;
+        margin-left: 40%;
+    }
+    #about .col-2
+    {
+        width: 50%;
+    }
+    #about .col-3
+    {
+        width: 35%;
+    }
+
+    #about .row .name 
+    {
+        font-size: 3rem;
+        margin-top: 32%;
+        margin-left: 40%;
+    }
+
+
+    /* bio */
+    .bio .write-up .br  
+    {
+        display: none;
+    }
+    .bio .write-up p 
+    {
+        font-size: .6rem;
+        padding: 0 5em;
+    }
+    .bio .socials p 
+    {
+        font-size: .7rem;
+    }
+
+
+    /* footer */
+    .footer-links h1 
+    {
+        font-size: 1.8rem;
+    }
+    footer a, p 
+    {
+        font-size: .9rem;
+    }
+
+
+    /* disco */
+    #disco .row .col img 
+    {
+        width: 380px;
+        height: 380px;
+        margin-bottom: 5em;
+    }
+
+    #disco .col .title 
+    {
+        font-size: 2.5rem;
+        margin-left: -50%;
+    }
+
+    .col .info p 
+    {
+        font-size: .9rem;
+    }
+    .col .info a 
+    {
+        font-size: .8rem;
+        padding: .7em 1em;
+    }
+
+
+    /* cta */
+    #disco .cta 
+    {
+        margin-top: 15%;
+    }
+    #disco .cta h1 
+    {
+        font-size: 2rem;
+        padding: 0 1em;
+    }
+}
+
+@media (max-width: 800px)
+{
+    /* home */
+    #home .cta h1 
+    {
+        font-size: 2.3rem;
+        line-height: 35px;
+        margin-bottom: 1em;
+    }
+
+
+    /* about */
+    #about .col-1 
+    {
+        height: 40vh;
+        margin-left: 43%;
+    }
+    #about .col-2
+    {
+        width: 55%;
+    }
+    #about .col-3
+    {
+        width: 38%;
+        height: 65vh;
+    }
+
+    #about .row .name 
+    {
+        font-size: 2.7rem;
+    }
+
+
+    /* footer */
+    .footer-links h1 
+    {
+        font-size: 1.6rem;
+    }
+    footer a, p 
+    {
+        font-size: .8rem;
+    }
+
+    .footer-links 
+    {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+    .logo a 
+    {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 700px)
+{
+    /* about */
+    #about .col-3
+    {
+        width: 40%;
+        height: 65vh;
+    }
+    #about .row .name 
+    {
+        font-size: 2.3rem;
+    }
+}
+
+@media (max-width: 600px)
+{
+    /* about */
+    #about .col-1 
+    {
+        width: 35vw;
+        height: 40vh;
+        margin-left: 60%;
+    }
+    #about .col-2
+    {
+        position: absolute;
+        width: 45vw;
+        height: 50vh;
+        margin-top: 50%;
+        border: 1px solid #b18d72;
+    }
+    #about .col-3
+    {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #about .row .name 
+    {
+        font-size: 2.5rem;
+        margin-left: 0;
+        margin-top: 55%;
+        text-align: center;
+    }
+
+
+    /* disco */
+    #disco .col .info 
+    {
+        width: 76%;
+        border: 1px solid #938f6f;
+        background-color: #0b0a0a;
+    }
+
+    /* cta */
+    #disco .cta 
+    {
+        margin-top: 20%;
+    }
+    #disco .cta h1 
+    {
+        font-size: 1.8rem;
+        padding: 0 1em;
+    }
+}
+
+@media (max-width: 450px)
+{
+    /* home */
+    #home .bg 
+    {
+        width: 340px;
+        height: 370px;
+    }
+
+    #home .cta h1 
+    {
+        font-size: 2rem;
+        padding: 0 1em;
+    }
+    #home .cta a 
+    {
+        font-size: .9rem;
+        padding: 1.1em 1.8em;
+    }
+
+
+    /* about */
+    #about .col-1 
+    {
+        width: 49vw;
+        height: 30vh;
+        margin-left: 50%;
+    }
+    #about .col-2
+    {
+        width: 60vw;
+        height: 40vh;
+        margin-top: 90%;
+    }
+    #about .col-3
+    {
+        height: 80vh;
+    }
+
+    #about .row .name 
+    {
+        font-size: 3rem;
+        padding: 0 3em;
+        line-height: 50px;
+        margin-left: -33%;
+        margin-top: 120%;
+    }
+
+
+    /* bio */
+    .bio .write-up 
+    {
+        margin-top: 15%;
+    }
+    .bio .write-up p 
+    {
+        font-size: .7rem;
+        padding: 0 2em;
+    }
+
+    .bio .socials 
+    {
+        gap: .6em;
+    }
+    .bio .socials p 
+    {
+        font-size: .85rem;
+        padding: .5em 0;
+    }
+
+
+    /* disco */
+    #disco h1 
+    {
+        font-size: 2.3rem;
+        padding: 0 2em;
+    }
+    #disco .row .col img 
+    {
+        width: 350px;
+        height: 380px;
+        margin-bottom: 7em;
+    }
+
+    #disco .col .title 
+    {
+        margin-left: 0;
+        margin-top: -2em;
+        backdrop-filter: blur(80px);
+        padding: 0 .5em;
+    }
+
+    #disco .col .info 
+    {
+        width: 91%;
+        padding: 1em .7em;
+    }
+    #disco .col .info p 
+    {
+        font-size: 1rem;
+    }
+    #disco .col .info a 
+    {
+        font-size: .9rem;
+        padding: 1em 1em;
+    }
+
+    
+    /* cta */
+    #disco .cta a 
+    {
+        padding: 1.1em 1.4em;
+    }
+    
+}

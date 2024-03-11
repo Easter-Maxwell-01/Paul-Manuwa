@@ -1,0 +1,9 @@
+
+@keyframes move {
+    30% {
+        transform: translate(var(--x), var(--move-y));
+    }
+    82% {
+        transform: translate(var(--x), var(--move-y-s));
+    }
+}

@@ -20,7 +20,10 @@
     backdrop-filter: blur(80px);
 }
 
-
+html
+{
+    overflow-x: hidden;
+}
 body 
 {
     background: #0f0e0e;

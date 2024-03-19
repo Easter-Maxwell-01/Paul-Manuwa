@@ -47,7 +47,7 @@ $(document).ready(function() {
             loader.fadeOut(); // Fade out loader
             // Show site content or execute any other actions
             // Example: $('.site-content').fadeIn();
-        }, 3550);
+        }, 3000);
     }  
 });
 
